@@ -7,4 +7,5 @@ COPY dist/robots.txt /public/
 COPY dist/assets /public/assets
 ENV SERVER_PORT=8080
 ENV SERVER_ROOT=/public
+ENV SERVER_FALLBACK_PAGE=/public/index.html
 EXPOSE 8080
