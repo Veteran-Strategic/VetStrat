@@ -1,4 +1,11 @@
-Dockerfile
-.dockerignore
+src
+public
+node_modules
+*.json
+*.ts
+*.js
+*.md
 .git
 .gitignore
+nginx.conf
+postcss.config.js
