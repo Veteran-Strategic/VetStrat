@@ -26,7 +26,7 @@ export function ServicesSection() {
       icon: Users,
       title: "Fractional CISO",
       price: "$10K/month",
-      description: "A named security leader for your firm. When clients ask who handles your security—the answer is a CISSP with enterprise experience."
+      description: "A named security leader for your firm. When clients ask who handles your security, the answer is a CISSP with over a decade of cybersecurity experience."
     }
   ];
 

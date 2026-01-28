@@ -53,7 +53,7 @@ export default function ServicesPage() {
       priceNote: "(requires Assessment + Audit Response first)",
       timeline: "6-month minimum commitment",
       badge: "Limited Availability",
-      description: "Dr. Richard Catlin serves as your firm's named security leader and point of contact for corporate client audits. When clients ask \"who handles your security?\"—the answer is a CISSP with enterprise experience at Microsoft, General Dynamics, and Leidos.",
+      description: "Dr. Richard Catlin serves as your firm's named security leader and point of contact for corporate client audits. When clients ask who handles your security, the answer is a CISSP with over a decade of cybersecurity experience across military and enterprise environments.",
       features: [
         "Named security contact for clients",
         "Direct audit representation",

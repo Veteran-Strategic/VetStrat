@@ -46,7 +46,7 @@ export function LawFirmsSection() {
               For Law Firms
             </h2>
             <p className="mt-4 text-slate-300 leading-relaxed">
-              We assess your firm against what corporate clients and cyber insurers actually require—ACC Model Controls, Outside Counsel Guidelines, and the five controls insurers won't budge on.
+              We assess your firm against what corporate clients and cyber insurers actually require: ACC Model Controls, Outside Counsel Guidelines, and the five controls insurers won't budge on.
             </p>
             <p className="mt-4 text-slate-300 leading-relaxed">
               Then we help you build the documentation and evidence to prove you're ready.

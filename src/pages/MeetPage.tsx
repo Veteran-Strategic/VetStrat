@@ -13,29 +13,30 @@ export default function MeetPage() {
       name: "Jeremy Davis",
       title: "Co-Founder & Operations Lead",
       image: jeremyDavis,
-      brief: "Operations and process expert specializing in workflow design for high-compliance industries. U.S. Army Veteran."
+      brief: "Operations and process expert specializing in workflow design for high-compliance industries. U.S. Army Veteran. Handles client relationships, assessments, and day-to-day coordination."
     },
     {
       name: "Dr. Richard Catlin III",
       title: "Co-Founder & Cybersecurity Lead",
       image: richardCatlin,
-      brief: "Major, U.S. Air Force Reserves (Cybersecurity Officer). CISSP certified with master's degrees in Cybersecurity Technology and IT Auditing. Led enterprise cybersecurity programs for Microsoft, General Dynamics, Leidos, and Fortune 500 organizations."
+      brief: "Major in the U.S. Air Force Reserves with over a decade of cybersecurity, intelligence, and information warfare experience across military and enterprise environments. CISSP certified with master's degrees in Cybersecurity Technology and IT Auditing. Has held senior roles at Microsoft, General Dynamics, Leidos, and other Fortune 500 organizations."
     }
   ];
 
   const capabilities = [
-    "Custom-built secure systems tailored to your specific workflows",
-    "Audit-ready with built-in security controls and compliance documentation",
-    "Fast delivery: 3-4 week turnaround from requirements to deployment"
+    "Gap analysis against ACC Model Controls and cyber insurance requirements",
+    "Policy documentation and evidence packages for client audits",
+    "On-call support during audit periods and insurance questionnaires",
+    "Fractional CISO services with a named security leader for your firm"
   ];
 
   return (
     <>
-      <SEO 
-        title="Schedule a Discovery Call | Veteran Strategic" 
-        description="Custom secure systems for law firms, healthcare practices, and financial services. Schedule a 30-minute discovery call with Veteran Strategic."
+      <SEO
+        title="Schedule a Readiness Assessment | Veteran Strategic"
+        description="We help law firms pass client security audits and cyber insurance reviews. Schedule a consultation with Veteran Strategic."
       />
-      
+
       {/* Hero Section */}
       <section className="animated-gradient py-20 md:py-28 relative overflow-hidden min-h-[50vh] flex items-center">
         <motion.div
@@ -48,7 +49,7 @@ export default function MeetPage() {
           animate={{ x: [0, -15, 0], y: [0, 10, 0] }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut", delay: 1 }}
         />
-        
+
         <div className="container-wide relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -57,10 +58,10 @@ export default function MeetPage() {
             className="max-w-3xl mx-auto text-center"
           >
             <h1 className="text-3xl font-semibold sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight">
-              Custom Secure Systems for Regulated Businesses
+              Law Firm Security and Audit Readiness
             </h1>
             <p className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              We build secure internal workflows for law firms, healthcare practices, and financial services that need to prove they're protecting sensitive data.
+              We help law firms pass client security audits and cyber insurance reviews. When corporate clients ask about your security controls, you will have the answers.
             </p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -68,13 +69,13 @@ export default function MeetPage() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="mt-10"
             >
-              <Button 
-                asChild 
-                size="lg" 
+              <Button
+                asChild
+                size="lg"
                 className="bg-teal hover:bg-teal-dark text-white hover-glow text-base px-8 py-6"
               >
                 <a href={ctaUrl} target="_blank" rel="noopener noreferrer">
-                  Schedule a Discovery Call
+                  Schedule a Readiness Assessment
                 </a>
               </Button>
             </motion.div>
@@ -96,8 +97,8 @@ export default function MeetPage() {
                 className="flex flex-col items-center text-center"
               >
                 <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-border mb-6">
-                  <img 
-                    src={founder.image} 
+                  <img
+                    src={founder.image}
                     alt={founder.name}
                     className="w-full h-full object-cover"
                   />
@@ -161,13 +162,13 @@ export default function MeetPage() {
             transition={{ duration: 0.5 }}
             className="max-w-xl mx-auto text-center"
           >
-            <Button 
-              asChild 
-              size="lg" 
+            <Button
+              asChild
+              size="lg"
               className="bg-teal hover:bg-teal-dark text-white hover-glow text-base px-8 py-6"
             >
               <a href={ctaUrl} target="_blank" rel="noopener noreferrer">
-                Schedule a Discovery Call
+                Schedule a Readiness Assessment
               </a>
             </Button>
             <p className="mt-4 text-sm text-muted-foreground">

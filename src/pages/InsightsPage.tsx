@@ -32,7 +32,7 @@ export default function InsightsPage() {
               Insights
             </h1>
             <p className="mt-6 text-lg text-slate-300 leading-relaxed">
-              Practical guidance on compliance, security, and software development for regulated businesses. No fluff, no thought-leadership posturing—just useful information.
+              Practical guidance on compliance, security, and software development for regulated businesses. No fluff, no thought-leadership posturing. Just useful information.
             </p>
           </motion.div>
         </div>

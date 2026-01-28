@@ -24,9 +24,9 @@ export function AboutSection() {
             </h2>
             <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
               <p>
-                Veteran Strategic was founded by an Army veteran and an Air Force Reserve cybersecurity officer.
-                We bring enterprise security experience from Microsoft, General Dynamics, and Leidos to law firms
-                that need to prove their security posture to corporate clients and insurers.
+                Veteran Strategic was founded by an Army veteran and an Air Force Reserve cybersecurity officer
+                with over a decade of experience in cybersecurity, intelligence, and information warfare. We help
+                law firms prove their security posture to corporate clients and insurers.
               </p>
               <p className="text-slate-400">
                 We're not auditors trying to certify you or software vendors trying to sell you a platform.

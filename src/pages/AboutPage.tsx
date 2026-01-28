@@ -16,7 +16,7 @@ export default function AboutPage() {
       name: "Dr. Richard Catlin III",
       role: "Co-Founder & Cybersecurity Lead",
       image: richardCatlin,
-      bio: "Richard serves as the technical authority and Fractional CISO for clients. Major, U.S. Air Force Reserves (Cybersecurity Officer). CISSP certified with CompTIA Security Analytics Professional credentials. Master's in Cybersecurity Technology and IT Auditing. Enterprise security experience at Microsoft, General Dynamics, and Leidos."
+      bio: "Richard serves as the technical authority and Fractional CISO for clients. Major in the U.S. Air Force Reserves with over a decade of cybersecurity, intelligence, and information warfare experience across military and enterprise environments. CISSP certified with master's degrees in Cybersecurity Technology and IT Auditing. Has held senior roles at Microsoft, General Dynamics, Leidos, and other Fortune 500 organizations."
     }
   ];
 
