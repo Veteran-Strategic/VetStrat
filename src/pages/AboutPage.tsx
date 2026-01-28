@@ -8,15 +8,15 @@ export default function AboutPage() {
   const leaders = [
     {
       name: "Jeremy Davis",
-      role: "Founder and Operations Lead",
+      role: "Co-Founder & Operations Lead",
       image: jeremyDavis,
-      bio: "Jeremy leads operational execution and systems design at Veteran Strategic. His background spans business operations, automation, and technical strategy within regulated environments. His work focuses on identifying risk early, designing practical solutions, and ensuring execution aligns with how organizations are actually evaluated under scrutiny."
+      bio: "Jeremy handles client relationships, assessments, and day-to-day coordination. He ensures engagements run smoothly and deliverables meet expectations. U.S. Army veteran with operations and workflow expertise in high-compliance industries."
     },
     {
-      name: "Dr. Richard Catlin",
-      role: "Founder and Cybersecurity Lead",
+      name: "Dr. Richard Catlin III",
+      role: "Co-Founder & Cybersecurity Lead",
       image: richardCatlin,
-      bio: "Dr. Richard Catlin provides cybersecurity leadership and oversight for Veteran Strategic. He has experience supporting cybersecurity efforts within programs associated with the United States Air Force and across regulated enterprise environments. He holds a master's degree in cybersecurity and maintains CISSP certification."
+      bio: "Richard serves as the technical authority and Fractional CISO for clients. Major, U.S. Air Force Reserves (Cybersecurity Officer). CISSP certified with CompTIA Security Analytics Professional credentials. Master's in Cybersecurity Technology and IT Auditing. Enterprise security experience at Microsoft, General Dynamics, and Leidos."
     }
   ];
 
@@ -45,9 +45,9 @@ export default function AboutPage() {
 
   return (
     <>
-      <SEO 
-        title="About | Veteran Strategic" 
-        description="Veteran Strategic is a veteran-owned cybersecurity and systems firm built to support organizations operating under real scrutiny."
+      <SEO
+        title="About | Veteran Strategic"
+        description="Veteran Strategic is a veteran-owned cybersecurity firm helping law firms pass client security audits and cyber insurance reviews."
       />
       
       {/* Hero */}
@@ -65,10 +65,10 @@ export default function AboutPage() {
             className="max-w-3xl"
           >
             <h1 className="text-3xl font-semibold sm:text-4xl md:text-5xl text-white">
-              About Veteran Strategic
+              Veteran-owned. Law firm focused.
             </h1>
             <p className="mt-6 text-lg text-slate-300 leading-relaxed max-w-2xl">
-              A cybersecurity and systems firm built for organizations operating under real scrutiny.
+              We help law firms pass client security audits and cyber insurance reviews.
             </p>
           </motion.div>
         </div>
@@ -85,14 +85,14 @@ export default function AboutPage() {
               transition={{ duration: 0.5 }}
             >
               <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl text-foreground">
-                Firm overview
+                What we do
               </h2>
               <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Veteran Strategic helps regulated businesses and government contractors prepare for audits, reduce operational risk, and implement secure systems that hold up under review.
+                  Veteran Strategic helps law firms pass client security audits (ACC Model Controls, Outside Counsel Guidelines) and cyber insurance reviews. We bring enterprise security experience to firms that need to prove their security posture.
                 </p>
                 <p>
-                  Our work is designed for environments where mistakes are costly, shortcuts fail, and documentation matters.
+                  We're not auditors trying to certify you or software vendors trying to sell you a platform. We sit on your side of the table and help you get ready for scrutiny.
                 </p>
               </div>
             </motion.div>

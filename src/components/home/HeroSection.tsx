@@ -64,17 +64,17 @@ export function HeroSection() {
             className="max-w-xl"
           >
             <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl md:text-5xl lg:text-[3.25rem] lg:leading-tight">
-              Build secure systems.{" "}
-              <span className="text-teal">Ship faster. Stay audit-ready.</span>
+              Law firm security.{" "}
+              <span className="text-teal">Client audit readiness. Cyber insurance reviews.</span>
             </h1>
-            
+
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
               className="mt-6 text-lg text-slate-300 leading-relaxed"
             >
-              Custom software and workflow automation for finance, healthcare, and legal teams. Solutions built quickly, secured properly, documented for audit.
+              We help law firms pass client security audits and cyber insurance reviews. When corporate clients ask about your security controls, you'll have the answers.
             </motion.p>
             
             <motion.div
@@ -89,7 +89,7 @@ export function HeroSection() {
                 className="bg-teal hover:bg-teal-dark text-white font-medium px-6 py-3 h-auto hover-glow"
               >
                 <Link to="/contact" className="inline-flex items-center gap-2">
-                  Book a systems consult
+                  Schedule a readiness assessment
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </Button>

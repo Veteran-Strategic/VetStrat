@@ -11,17 +11,17 @@ export function WhatWeDoSection() {
     {
       icon: AlertTriangle,
       title: "The problem",
-      description: "Move fast, risk compliance failures. Move slowly, lose ground to competitors."
+      description: "Corporate clients audit law firms before engagement. Insurers reject applications when firms can't prove controls."
     },
     {
       icon: Zap,
-      title: "Speed without shortcuts",
-      description: "Systems designed correctly from day one. No rework. No surprises during audits."
+      title: "What's at stake",
+      description: "29% of law firms experienced a breach last year. Average cost: $5 million. Lost clients. Higher premiums."
     },
     {
       icon: ShieldCheck,
-      title: "Built-in accountability",
-      description: "Documentation, security review, and clear ownership included. Audit questions answered."
+      title: "The solution",
+      description: "Prove your security posture with documentation and evidence that satisfies ACC controls and insurance requirements."
     }
   ];
 
@@ -57,10 +57,10 @@ export function WhatWeDoSection() {
           className="text-center max-w-2xl mx-auto mb-16"
         >
           <h2 className="text-2xl font-semibold sm:text-3xl md:text-4xl text-foreground">
-            What We Do
+            The Problem
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Regulated businesses need systems that ship fast without creating new risks.
+            Law firms are losing clients and paying higher premiums because they can't prove their security posture.
           </p>
         </motion.div>
 

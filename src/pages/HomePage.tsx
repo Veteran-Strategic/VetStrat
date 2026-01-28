@@ -1,24 +1,22 @@
 import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/home/HeroSection";
 import { WhatWeDoSection } from "@/components/home/WhatWeDoSection";
-import { RegulatedSMBsSection } from "@/components/home/RegulatedSMBsSection";
-import { HowWeWorkSection } from "@/components/home/HowWeWorkSection";
-import { GovernmentContractorsSection } from "@/components/home/GovernmentContractorsSection";
-import { WhoThisIsForSection } from "@/components/home/WhoThisIsForSection";
+import { LawFirmsSection } from "@/components/home/LawFirmsSection";
+import { ServicesSection } from "@/components/home/ServicesSection";
+import { AboutSection } from "@/components/home/AboutSection";
 
 export default function HomePage() {
   return (
     <>
-      <SEO 
-        title="Veteran Strategic | Secure Systems for Regulated Businesses" 
-        description="Veteran Strategic designs custom software and automation for finance, healthcare, and legal teams that need solutions quickly without exposing sensitive data or creating compliance risk."
+      <SEO
+        title="Veteran Strategic | Law Firm Security & Audit Readiness"
+        description="We help law firms pass client security audits and cyber insurance reviews. When corporate clients ask about your security controls, you'll have the answers."
       />
       <HeroSection />
       <WhatWeDoSection />
-      <RegulatedSMBsSection />
-      <HowWeWorkSection />
-      <GovernmentContractorsSection />
-      <WhoThisIsForSection />
+      <LawFirmsSection />
+      <ServicesSection />
+      <AboutSection />
     </>
   );
 }
