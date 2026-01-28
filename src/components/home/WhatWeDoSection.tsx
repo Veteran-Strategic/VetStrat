@@ -48,7 +48,7 @@ export function WhatWeDoSection() {
   };
 
   return (
-    <section ref={ref} className="section-padding bg-background">
+    <section ref={ref} id="problem-section" className="section-padding bg-background">
       <div className="container-wide">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

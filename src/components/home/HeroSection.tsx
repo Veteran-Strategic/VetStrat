@@ -6,10 +6,10 @@ import { SystemVisual } from "./SystemVisual";
 
 export function HeroSection() {
   const scrollToNextSection = () => {
-    window.scrollTo({
-      top: window.innerHeight - 80,
-      behavior: "smooth"
-    });
+    const nextSection = document.getElementById('problem-section');
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
